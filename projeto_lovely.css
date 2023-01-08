@@ -1,0 +1,161 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Lovely';
+    src: url(love_paradise/LOVEPARADISE.otf) format(opentype);
+}
+@font-face {
+    font-family: 'Lovely lady';
+    src: url(love_lady/LoveLadyPersonalUse.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Lovely song';
+    src: url(mf_love_song/Mf\ Love\ Song.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+    
+}
+@font-face {
+    font-family: 'Lovely hearts';
+    src: url(jlr_simple_hearts/JLRSH___.TTF) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Lovelings';
+    src: url(lovelings/Lovelings.otf) format(truetype), url(lovelings/Lovelings.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+title{
+    text-align: center;
+}
+
+header{
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    background-color: white;
+    color: fuchsia;
+    font-family: 'Lovelings', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav{
+    background-color: fuchsia;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-top: 0px;
+
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.515);
+    
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 25px;
+    margin-left: 0px;
+    font-size: 1em;
+}
+
+nav > a:hover{
+    background-color: white;
+    color: fuchsia;
+    text-decoration: underline;
+}
+
+nav > a.lojafisica::before{
+    content: '\1F3EA';
+}
+
+nav > a.instagram::before{
+    content: '\1F4F8';
+}
+
+nav > a.whatsapp::before{
+    content: '\1F48C';
+}
+
+nav > a.studio::before{
+    content: '\1F48B';
+}
+
+nav > a.propietaria::before{
+    content: '\1F9DA';
+}
+
+/*
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+}
+
+main img{
+    width: 100%;
+}
+*/
+
+a{
+    color: black;
+    font-weight: bold;
+}
+
+p{
+    color: black;
+    font-family: 'Lovely song', Times, serif;
+}
+
+img{
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+
+    padding: 10px;
+}
+
+footer > a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+}
