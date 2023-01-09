@@ -64,7 +64,7 @@ nav{
     border-color: black;
     border-top: 0px;
 
-    padding: 5px;
+    padding: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.515);
     
     margin-top: 0px;
@@ -77,7 +77,7 @@ nav > a{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    margin-right: 2px;
+    margin-right: 25px;
     margin-left: 0px;
     font-size: 1em;
 }
@@ -108,6 +108,18 @@ nav > a.propietaria::before{
     content: '\1F9DA';
 }
 
+div > a{
+    color: white;
+    background-color: fuchsia;
+    border: 3px solid black;
+    width: 130px;
+    height: 25px;
+    padding: 10px;
+    margin: 10px 10px 10px 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
 /*
 main{
     min-width: 300px;
@@ -120,8 +132,6 @@ main img{
     width: 100%;
 }
 */
-
-
 
 a{
     color: black;
@@ -136,8 +146,8 @@ p{
 img{
     display: inline-block;
     text-align: center;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 }
 
 footer{
