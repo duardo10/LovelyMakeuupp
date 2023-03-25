@@ -88,6 +88,8 @@ nav > a:hover{
     text-decoration: underline;
 }
 
+/*
+
 nav > a.lojafisica::before{
     content: '\1F3EA';
 }
@@ -107,7 +109,7 @@ nav > a.studio::before{
 nav > a.propietaria::before{
     content: '\1F9DA';
 }
-
+*/
 div > a{
     color: white;
     background-color: fuchsia;
@@ -132,6 +134,10 @@ main img{
     width: 100%;
 }
 */
+.redesocial{
+    height: 20px;
+    width: 20px;
+}
 
 a{
     color: black;
