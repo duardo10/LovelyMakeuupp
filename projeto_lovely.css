@@ -139,6 +139,13 @@ main img{
     width: 20px;
 }
 
+.esgotado{
+    display: inline-block;
+    margin-top: 30px;
+    height: 200px;
+    width: 300px;
+}
+
 a{
     color: black;
     font-weight: bold;
