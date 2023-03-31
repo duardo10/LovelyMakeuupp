@@ -126,7 +126,6 @@ nav > a:hover{
     flex-direction: row;
     justify-content: space-between;
     
-    padding-left: 20px;
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 12px;
@@ -135,7 +134,7 @@ nav > a:hover{
 }
 
 /*--deixar com efeito de sombra--*/
-.container:hover{
+.container{
     box-shadow: 5px  20px 20px 5px #c28ad0;
     transition: 0.5s;
 }
@@ -147,8 +146,7 @@ nav > a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    padding: 25px;
+    padding-left: 20px;
 }
 
 
