@@ -120,8 +120,8 @@ nav > a:hover{
 /*--fazer quadrados brancos--*/
 .container{
     
-    width: 99%;
-    height: 100%;
+    width: 90%;
+    height: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -175,6 +175,7 @@ nav > a.propietaria::before{
     content: '\1F9DA';
 }
 */
+/*
 div > a{
     color: white;
     background-color: fuchsia;
@@ -186,6 +187,31 @@ div > a{
     text-align: center;
     text-decoration: none;
 }
+*/
+
+.produtos{
+    width: 200px;
+    height: 20px;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    background-color: fuchsia;
+    text-align: center; 
+    display: inline-block;
+}  
+
+.pd{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    font-weight: bold;
+}
+
+
+
 
 /*
 main{
@@ -211,10 +237,7 @@ main img{
     width: 300px;
 }
 
-a{
-    color: black;
-    font-weight: bold;
-}
+
 
 p{
     color: black;
