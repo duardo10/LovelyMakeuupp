@@ -190,13 +190,13 @@ div > a{
 */
 
 .produtos{
-    width: 150px;
+    width: 145px;
     height: 20px;
     display: block;
     padding: 10px;
     margin-top: 20px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-bottom: 30px;
     background-color: fuchsia;
     text-align: center; 
