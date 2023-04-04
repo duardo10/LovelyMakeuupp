@@ -84,14 +84,18 @@ nav > a{
     text-decoration: none;
 }
 
-nav > a:hover{
-    color: fuchsia;
-    text-decoration: none;
-}
-
 img#rede-social{
     border-radius: 50%;
     margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+    box-sizing: border-box;
+}
+
+img#rede-social:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.656);
+    transition: transform 0.2s;
 }
 
 .redesocial{
@@ -135,6 +139,8 @@ img#rede-social{
     margin-bottom: 12px;
     margin-right: 1000px;
     background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -153,6 +159,7 @@ img#rede-social{
     align-items: center;
     padding-left: 20px;
     margin-right: 100px;
+    
 }
 
 
@@ -251,11 +258,17 @@ main img{
 
 .esgotado{
     display: inline-block;
-    margin-top: 30px;
+    margin: 10px;
     height: 200px;
     width: 300px;
 }
 
+.localizacao{
+    display: inline-block;
+    margin: 10px;
+    height: 300px;
+    width: 200px;
+}
 
 
 p{
