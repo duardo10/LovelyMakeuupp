@@ -137,7 +137,7 @@ img#rede-social:hover{
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 12px;
-    margin-right: 1000px;
+    margin-right: 10px;
     background-color: #ffffff;
     justify-content: center;
     align-items: center;
@@ -157,8 +157,8 @@ img#rede-social:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
-    margin-right: 100px;
+    padding-left: 50%;
+    margin-right: 55%;
     
 }
 
@@ -268,6 +268,22 @@ main img{
     margin: 10px;
     height: 300px;
     width: 200px;
+}
+
+.nome{
+    width: 90vw;
+    
+    display: flex;
+ 
+    
+    
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 12px;
+    margin-right: 0px;
+    background-color: fuchsia;
+    justify-content: center;
+    align-items: center;
 }
 
 
