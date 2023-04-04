@@ -270,23 +270,6 @@ main img{
     width: 200px;
 }
 
-.nome{
-    width: 90vw;
-    
-    display: flex;
- 
-    
-    
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 12px;
-    margin-right: 10px;
-    background-color: fuchsia;
-    justify-content: center;
-    align-items: center;
-}
-
-
 p{
     color: black;
     font-family: 'Lovely song', Times, serif;
@@ -299,8 +282,8 @@ img{
     width: 300px;
 }
 
-footer{
-    background-color: black;
+/*footer{
+    background-color:fuchsia;
     color: white;
     border-width: 2px;
     border-style: solid;
@@ -319,4 +302,30 @@ footer > a{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
 
+}*/
+
+.rodape{
+    height: 20vh;
+    padding: 0 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    
+    background-color: fuchsia;
+    color: #fff;
+    
+
+}
+
+.rodape .card-deck{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.rodape .card-deck a{
+    text-decoration: none;
+    color: aliceblue;
 }
