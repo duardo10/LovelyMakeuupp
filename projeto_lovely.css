@@ -333,18 +333,19 @@ img.rodape{
 }
 
 
-.comp{
+.nomeP{
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     height: 100px;
-    width: 90%;
+    width: 100%;
 
     margin-top: 5px;
     margin-left: 10px;
     margin-right: 20px;
     margin-bottom: 50px;
+    text-align: center;
     
     background-color: #ff00ff;
     color: white;
