@@ -331,3 +331,23 @@ img.rodape{
     margin: auto;
     display: -webkit-box;
 }
+
+
+.comp{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 120%;
+
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    
+    background-color: #ff00ff;
+    color: white;
+    font-weight: bold;
+    
+}
