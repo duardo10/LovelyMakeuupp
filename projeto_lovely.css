@@ -334,11 +334,11 @@ img.rodape{
 
 
 .nomeP{
-    display: flex;
+    display: block;
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 40%;
     width: 100%;
 
     margin-top: 5px;
