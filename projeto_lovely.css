@@ -301,8 +301,9 @@ footer{
 footer > a{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-
+    font-weight: bold;
+    text-align: center;
+    display: block;
 }
 
 .rodape{
@@ -315,12 +316,12 @@ footer > a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
+    
 }
 
-a.rodape{
-    text-decoration: none;
-    color: aliceblue;
-    display: inline;
-}
 
+img.rodape{
+    align-items: center;
+    margin: auto;
+    display: -webkit-box;
+}
