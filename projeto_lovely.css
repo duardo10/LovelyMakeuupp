@@ -271,8 +271,14 @@ main img{
 }
 
 p{
-    color: black;
     font-family: 'Lovely song', Times, serif;
+    color: white;
+    text-align: center;
+    display: block;
+    background-color:#ff00ff;
+
+    width: 95%;
+    margin: auto;
 }
 
 img{
