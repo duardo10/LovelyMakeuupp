@@ -270,6 +270,7 @@ main img{
     width: 200px;
 }
 
+/*
 p{
     font-family: 'Lovely song', Times, serif;
     color: white;
@@ -280,7 +281,7 @@ p{
     width: 95%;
     margin: auto;
 }
-
+*/
 img{
     display: inline-block;
     text-align: center;
@@ -289,7 +290,7 @@ img{
 }
 
 footer{
-    height: 200px;
+    height: 230px;
     background-color:#ff00ff;
     color: white;
     border-width: 2px;
