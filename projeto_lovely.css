@@ -241,6 +241,25 @@ div > a{
     font-weight: bold;
 }
 
+.preco{
+    width: 200px;
+    height: 20px;
+    display: block;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: fuchsia;
+    text-align: center; 
+    display: inline-block;
+
+    color: white;
+    text-decoration: none;
+    display: inline;
+    font-weight: bolder;
+}
+
 
 /*
 main{
