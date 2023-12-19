@@ -46,6 +46,11 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+main{
+    background-image: url(https://75493.cdn.simplo7.net/static/75493/sku/digital-maquiagens-tricoline-estampa-digital-maquiagem-fundo-pret-p-1686935173181.png);
+    background-size: cover;
+    background-position: top center;
+}
 
 /*--configuração das fontes--*/
 h1{
@@ -114,6 +119,26 @@ img#rede-social:hover{
     margin-bottom: 50px;
     background-color: #ffffff;
     
+}
+
+.prods {
+    background: rgba(0,0,0,0.7);
+}
+
+.prods a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.prods h2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px 0;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
 .fixo{
@@ -316,7 +341,7 @@ footer{
     border-style: solid;
     border-color: black;
 
-    margin-top: 40px;
+    margin-top: 2px;
     margin-right: 0px;
     margin-bottom: 10px;
     margin-left: 0px;
