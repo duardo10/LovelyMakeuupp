@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecalho {
+    background-color: #ff00ff; /* fuchsia */
+    color: white;
+}
+
+.menu {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    padding: 10px 10px 30px 30px;
+}
+
+.menu a {
+    display: block;
+    padding: 0px 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.315);
+}
+
+.menu ul {
+    list-style: none;
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu li {
+    float: left;
+}
+
+/* Main */
+
+main {
+    max-width: 1200px; /* Largura máxima do main */
+    margin: 0 auto; /* Centraliza o main na página */
+    padding: 20px;
+    background-color: #f4f4f4; /* Cor de fundo do main */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.prods {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.h1 {
+    font-size: 24px;
+    color: #333; /* Cor escura para o título */
+    margin-bottom: 10px;
+}
+
+.product {
+    color: #fff; /* Cor branca para o link de produtos */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; /* Tamanho da fonte */
+    padding: 10px 100px; /* Espaçamento interno */
+    background-color: #e44d26; /* Cor de fundo laranja */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efeito de transição suave */
+}
+
+.product:hover {
+    background-color: #fff; /* Cor de fundo branca ao passar o mouse */
+    color: #e44d26; /* Cor laranja ao passar o mouse */
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pd {
+    background-color: #ff00ff; /* Fuchsia */
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+    width: 180px;
+    text-align: center;
+}
+
+.pd:hover {
+    background-color: #d600ff; /* Cor alterada ao passar o mouse */
+}
+
+
+
+
+/* Produtos */
+.grid {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.col {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+}
+
+.col-content {
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.col:hover .col-content {
+    transform: scale(1.05);
+}
+
+.col-content img {
+    margin-top: 20px;
+    width: 85%;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.col-content h2 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.col-content .preco {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #ff00ff; /* fuchsia */
+    font-weight: bold;
+}
+
+.compra a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #ff00ff; /* fuchsia */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.compra a:hover {
+    background-color: #4CAF50;
+}
+
+.sem-produtos {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.sem-produtos img {
+    max-width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.sem-produtos h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.sem-produtos p {
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* Estilo para o footer */
+.rodape { 
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.rodape-content {
+    background-color: fuchsia;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.rodape-info {
+    flex: 1 1 300px;
+    margin: 10px;
+}
+
+.rodape-info i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.rodape-info a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.info {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.info p {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Adicione mais estilos conforme necessário */
+
+/* Exemplo de estilo para o ícone do Instagram usando FontAwesome (substitua pelo seu conjunto de ícones) */
+.fa-instagram:before {
+    content: "\f16d"; /* Código do ícone do Instagram no FontAwesome */
+}
+
+/* Exemplo de estilo para o ícone do Map Marker usando FontAwesome (substitua pelo seu conjunto de ícones) */
+.fa-map-marker:before {
+    content: "\f041"; /* Código do ícone do Map Marker no FontAwesome */
+}
+
+@media (min-width: 768px) {
+    .col {
+        width: calc(30% - 20px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .col {
+        width: calc(33.33% - 20px);
+    }
+}
+
+@media (max-width: 767px) {
+    .menu {
+        padding: 10px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid {
+        margin: 10px auto;
+    }
+
+    .col {
+        width: calc(100% - 20px);
+    }
+}
+
