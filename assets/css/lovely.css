@@ -78,14 +78,14 @@ main {
     font-weight: bold;
     font-size: 18px; /* Tamanho da fonte */
     padding: 10px 60px; /* Espaçamento interno */
-    background-color: #e44d26; /* Cor de fundo laranja */
+    background-color: fuchsia; /* Cor de fundo laranja */
     border-radius: 5px; /* Bordas arredondadas */
     transition: background-color 0.3s ease, color 0.3s ease; /* Efeito de transição suave */
 }
 
 .product:hover {
     background-color: #fff; /* Cor de fundo branca ao passar o mouse */
-    color: #e44d26; /* Cor laranja ao passar o mouse */
+    color: fuchsia; /* Cor laranja ao passar o mouse */
 }
 
 .produtos {
