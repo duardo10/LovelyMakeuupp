@@ -73,19 +73,19 @@ main {
 }
 
 .product {
-    color: #fff; /* Cor branca para o link de produtos */
+    color: #fff; 
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px; /* Tamanho da fonte */
-    padding: 10px 60px; /* Espaçamento interno */
-    background-color: fuchsia; /* Cor de fundo laranja */
-    border-radius: 5px; /* Bordas arredondadas */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Efeito de transição suave */
+    font-size: 18px; 
+    padding: 10px 60px; 
+    background-color: fuchsia; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .product:hover {
-    background-color: #fff; /* Cor de fundo branca ao passar o mouse */
-    color: fuchsia; /* Cor laranja ao passar o mouse */
+    background-color: #fff; 
+    color: fuchsia; 
 }
 
 .produtos {
